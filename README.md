@@ -15,6 +15,10 @@ Included are:
 
 ---
 
+## Video Tutorial
+
+[![LTX Video 2.3 Tutorial](https://img.youtube.com/vi/jmUSMLATYRE/hqdefault.jpg)](https://youtu.be/jmUSMLATYRE)
+
 ## Purpose
 
 The goal of this project is to provide a straightforward way to:
