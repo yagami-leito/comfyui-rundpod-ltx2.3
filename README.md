@@ -94,7 +94,7 @@ Execute the provided script to download all required models.
 ---Single Command to copy and paste---
 (CTRL+SHIFT+V to paste into Webterminal)
 
-'git clone https://github.com/yagami-leito/comfyui-rundpod-ltx2.3 && cd comfyui-runpod-ltx2.3/scripts && chmod +x download_models.sh && bash download_models.sh'
+`git clone https://github.com/yagami-leito/comfyui-rundpod-ltx2.3 && cd comfyui-runpod-ltx2.3/scripts && chmod +x download_models.sh && bash download_models.sh`
 
 
 ### 4. Load the workflow
