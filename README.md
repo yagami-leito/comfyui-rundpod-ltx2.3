@@ -72,7 +72,6 @@ Additional documentation, setup notes, troubleshooting information and tutorial 
 Before starting, you should have:
 
 * a RunPod account
-* a Hugging Face account
 * basic familiarity with file management and web browsers
 
 No prior ComfyUI experience is required.
@@ -81,33 +80,39 @@ No prior ComfyUI experience is required.
 
 ## Quick Start
 
-### 1. Clone the repository
+### 1. Download the workflow 
 
-```bash
-git clone https://github.com/larsgringmuth1986/comfyui-rundpod-ltx2.3.git
-```
-
-### 2. Start a RunPod instance
+### 2. Set up a RunPod instance
 
 Deploy a compatible RunPod template with ComfyUI installed.
 
 ### 3. Run the download script
 
+Use the inbuilt Webterminal to clone the github repository to the running pod.
 Execute the provided script to download all required models.
 
-```bash
-chmod +x download_models.sh
-./download_models.sh
-```
+---Single Command to copy and paste---
+(CTRL+SHIFT+V to paste into Webterminal)
+
+git clone https://github.com/yagami-leito/comfyui-rundpod-ltx2.3 && cd comfyui-runpod-ltx2.3/scripts && chmod +x download_models.sh && bash download_models.sh
+
 
 ### 4. Load the workflow
 
-Open ComfyUI and import the provided workflow.
+Open ComfyUI and import the provided workflow, which you downloaded in the first Step of this tutorial. (You can drag and drop the .json file into the ComfyUI-Tab of your browser to import the workflow.)
 
-### 5. Generate your first video
+### 5. Set up the workflow
 
-Load an image, adjust the prompt and run the workflow.
+Install Missing Nodes via ComfyUI-Manager and select the models and files that were downloaded by the script.
 
+### 6. Run Image-to-Video Generation
+
+Create a short videoclip from an image you provide, that then acts as the starting frame for the generated video. 
+
+   ### 6a. Run Text-to-Video Generation
+
+   You describe the desired content of the        generated video in the prompt.
+   
 ---
 
 ## Troubleshooting
