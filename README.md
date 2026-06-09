@@ -44,7 +44,7 @@ This project is intended for:
 
 ```text
 .
-├── workflows/
+├── workflow/
 ├── scripts/
 ├── docs/
 └── README.md
